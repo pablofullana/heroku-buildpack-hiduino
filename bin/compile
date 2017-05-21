@@ -28,6 +28,6 @@ make
 cd $BUILD_DIR/vendor/
 wget http://download.savannah.gnu.org/releases/avr-libc/binary-releases/avr-libc-bin-2.0.0.zip
 jar xf avr-libc-bin-2.0.0.zip
-cd $BUILD_DIR/vendor/avr-libc-bin-2.0.0
+cd $BUILD_DIR/vendor/avr
 ./configure --host=avr
 make

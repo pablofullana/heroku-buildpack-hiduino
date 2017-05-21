@@ -26,8 +26,9 @@ cd $BUILD_DIR/vendor/binutils-2.28
 make
 
 cd $BUILD_DIR/vendor/
-wget http://download.savannah.gnu.org/releases/avr-libc/binary-releases/avr-libc-bin-2.0.0.zip
-jar xf avr-libc-bin-2.0.0.zip
-cd $BUILD_DIR/vendor/avr
+wget http://download.savannah.gnu.org/releases/avr-libc/avr-libc-2.0.0.tar.bz2
+bzip2 -d avr-libc-2.0.0.tar.bz2
+tar -zxvf avr-libc-2.0.0.tar
+cd $BUILD_DIR/vendor/avr-libc-2.0.0
 ./configure --host=avr
 make

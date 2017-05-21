@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir>
+
+# fail fast
+set -e
+
+# clone hiduino
+echo "-----> Copying HIDUINO files"
+BUILD_DIR=$1
+cd $BUILD_DIR
+git clone https://github.com/ddiakopoulos/hiduino.git
+
+# add LUFA

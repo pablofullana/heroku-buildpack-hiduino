@@ -24,4 +24,3 @@ rm binutils-2.28.tar.gz
 cd $BUILD_DIR/vendor/binutils-2.28
 ./configure --target=avr --program-prefix="avr-"
 make
-make install

@@ -12,6 +12,6 @@ git clone https://github.com/ddiakopoulos/hiduino.git
 
 # add LUFA
 cd $BUILD_DIR/vendor/hiduino
-http://www.fourwalledcubicle.com/files/LUFA/LUFA-140928.zip
+wget http://www.fourwalledcubicle.com/files/LUFA/LUFA-140928.zip
 jar xf LUFA-140928.zip
 rm LUFA-140928.zip

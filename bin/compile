@@ -32,5 +32,5 @@ wget http://download.savannah.gnu.org/releases/avr-libc/avr-libc-2.0.0.tar.bz2
 tar -xvf avr-libc-2.0.0.tar.bz2
 rm avr-libc-2.0.0.tar.bz2
 cd $BUILD_DIR/vendor/avr-libc-2.0.0
-./configure --host=avatom r
+./configure --host=avr
 make

@@ -32,7 +32,6 @@ cd $BUILD_DIR/vendor
 wget http://mirrors.concertpass.com/gcc/releases/gcc-7.1.0/gcc-7.1.0.tar.bz2
 tar -xvf gcc-7.1.0.tar.bz2
 rm gcc-7.1.0.tar.bz2
-cd $BUILD_DIR/vendor
 mkdir avrgcc-7.1.0
 cd avrgcc-7.1.0
 ../gcc-7.1.0/configure --target=avr --enable-languages=c --disable-libssp
